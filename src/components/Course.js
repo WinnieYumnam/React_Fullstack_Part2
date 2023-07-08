@@ -1,6 +1,8 @@
-const Course = ({ name,exercise }) => {
+const Course = ({ name,exercise}) => {
     return (
-      <li>{name} {exercise}</li>
+        <>
+            <li>{name} {exercise}</li>           
+        </>      
     )
   }
   

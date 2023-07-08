@@ -19,11 +19,16 @@ const App = () => {
         name: 'State of a component',
         exercises: 14,
         id: 3
+      },
+      {
+        name: 'Redux',
+        exercises: 11,
+        id: 3
       }
     ]
   }
 
-  let result = course.parts;
+  let result = course.parts.reduce((sum, exercise)=> sum + exercise.exercises,0)
   console.log("Map result", result);
 
   return (
@@ -33,7 +38,8 @@ const App = () => {
       {course.parts.map(part =>
           <Course key = {part.id} name={part.name} exercise = {part.exercises}/>
         )}
-    </ul>    
+    </ul>   
+    <h3>Total of {result}</h3> 
     </> 
   ) 
 }
