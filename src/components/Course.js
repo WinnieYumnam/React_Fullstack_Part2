@@ -1,7 +1,12 @@
-const Course = ({ name,exercise}) => {
+const Course = (props) => {
     return (
         <>
-            <li>{name} {exercise}</li>           
+            <h2>{props.title}</h2>
+            {props.part.map(part => 
+            <p key = {part.id}>
+            {part.name} {part.exercises}</p>  
+            )}
+            <h3> Total of {props.part.reduce((sum, exercise)=> sum + exercise.exercises,0)}</h3>         
         </>      
     )
   }
