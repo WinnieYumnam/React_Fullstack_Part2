@@ -1,0 +1,61 @@
+{
+  "persons": [
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Winnie",
+      "number": "1234567890",
+      "important": true
+    },
+    {
+      "id": 7,
+      "name": "Priya",
+      "number": "3456234509",
+      "important": false
+    },
+    {
+      "id": 9,
+      "name": "Shirsa",
+      "number": "1234123456",
+      "important": false
+    },
+    {
+      "id": 10,
+      "name": "Zonel",
+      "number": "1234123456",
+      "important": true
+    },
+    {
+      "id": 11,
+      "name": "Kamesh",
+      "number": "0980987654",
+      "important": true
+    },
+    {
+      "id": 12,
+      "name": "Alex",
+      "number": "1231236789",
+      "important": true
+    },
+    {
+      "id": 13,
+      "name": "Rahul Sharma",
+      "number": "1234512345",
+      "important": true
+    }
+  ]
+}
